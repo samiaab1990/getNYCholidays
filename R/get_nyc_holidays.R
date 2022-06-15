@@ -6,6 +6,12 @@
 #'
 #' @param  return_data_frame A logical vector. Default is FALSE
 #' @return a vector of holiday dates. If return_data_frame is TRUE, returns a data frame
+#' @importFrom dplyr %>% bind_cols mutate case_when pull
+#' @importFrom utils head tail
+#' @importFrom janitor row_to_names
+#' @importFrom readr read_lines
+#' @importFrom stringr str_split
+#' @importFrom stats setNames
 #' @export
 
 get_nyc_holidays<-function(return_data_frame=FALSE){
