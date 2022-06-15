@@ -1,10 +1,11 @@
-
 # getNYCholidays
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/getNYCholidays)](https://CRAN.R-project.org/package=getNYCholidays)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 <!-- badges: end -->
 
-The goal of getNYCholidays is to ...
+Retrieves a vector of New York City holidays dates listed on the NYC Office of Payroll Administration's List of Holidays PDF. 
 
 ## Installation
 
@@ -17,10 +18,14 @@ devtools::install_github("samiaab1990/getNYCholidays")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(getNYCholidays)
-## basic example code
+
+# returns a vector of holiday dates only
+get_nyc_holidays()
+
+# returns a data frame with date, holiday name, yyyy-mm-dd format and day of week
+get_nyc_holidays(return_data_frame=TRUE)
 ```
 
