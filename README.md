@@ -4,7 +4,7 @@
 [![CRAN status](https://www.r-pkg.org/badges/version/getNYCholidays)](https://CRAN.R-project.org/package=getNYCholidays)
 ![GitHub all releases](https://img.shields.io/github/downloads/samiaab1990/getNYCholidays/total)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-![GitHub tag](latest by date)(https://img.shields.io/github/v/tag/samiaab1990/getNYCholidays)
+[![GitHub tag](latest by date)](https://img.shields.io/github/v/tag/samiaab1990/getNYCholidays)
 
 <!-- badges: end -->
 
