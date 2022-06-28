@@ -24,7 +24,7 @@ devtools::install_github("samiaab1990/getNYCholidays")
 ``` r
 library(getNYCholidays)
 
-# returns a vector of holiday dates only
+# returns a vector of holiday dates based on the current year's calendar 
 get_nyc_holidays()
 
 [1] "2021-12-31" "2022-01-01" "2022-01-17" "2022-02-11" "2022-02-12" "2022-02-21" "2022-05-30"
@@ -32,7 +32,7 @@ get_nyc_holidays()
 [15] "2022-11-24" "2022-12-25" "2022-12-26" "2023-01-01"
 
 
-# returns a data frame with date, holiday name, yyyy-mm-dd format and day of week
+# returns a data frame with date, holiday name, yyyy-mm-dd format and day of week based on the current year's calendar 
 get_nyc_holidays(return_data_frame=TRUE)
 
               Date                        Holiday yyyy_mm_dd day_of_week
