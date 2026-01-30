@@ -5,7 +5,7 @@
 
 <!-- badges: end -->
 
-Retrieves a vector of New York City holidays dates as listed on the NYC Office of Payroll Administration's List of Holidays PDF in R. 
+Retrieves a data frame of official NYC holidays. Developed to get list of dates to exclude from reporting pipeline run times. 
 
 ## Installation
 
